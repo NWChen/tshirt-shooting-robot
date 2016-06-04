@@ -4,4 +4,4 @@ SERGE stands for Shirt-Ejecting Robot for General Entertainment. It's a 100lb. m
 # Thanks
 Thanks to Columbia Engineering Student Council for helping fund this project.
 
-![](https://i.gyazo.com/acff586fe3320631e7eb71445566ebee.png)
+![](https://lh5.googleusercontent.com/-gCowwyyIQtg/V1NLBArSs6I/AAAAAAAArgo/PKeLK9veM8I/w1053-h787-no/d20b94517cc894f24ed0f0289ffb2d51.png)
