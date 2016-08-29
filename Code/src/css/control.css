@@ -1,5 +1,19 @@
 body {
   font: 100% Roboto, sans-serif;
+  text-align: center;
   overflow-y: hidden; }
+
+h1 {
+  color: #3A3A3A;
+  font-size: 100%; }
+
+ul {
+  list-style: none; }
+  ul li {
+    color: #BDC3C7;
+    font-size: 200%;
+    padding: 1em; }
+  ul .activated {
+    color: #1E8BC3; }
 
 /*# sourceMappingURL=control.css.map */

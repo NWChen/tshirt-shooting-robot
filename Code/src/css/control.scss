@@ -1,6 +1,29 @@
 $font-stack: Roboto, sans-serif;
+$husky: #3A3A3A;
+$summersky: #1E8BC3;
+$silversand: #BDC3C7;
 
 body {
 	font: 100% $font-stack;
+	text-align: center;
+
 	overflow-y: hidden;
+}
+
+h1 {
+	color: $husky;
+	font-size: 100%;
+}
+
+ul {
+	list-style: none;
+
+	li {
+		color: $silversand;
+		font-size: 200%;
+		padding: 1em;
+	}
+	.activated {
+		color: $summersky;
+	}
 }
