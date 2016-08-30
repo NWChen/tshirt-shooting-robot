@@ -11,6 +11,8 @@ body {
   body .important-value {
     overflow: hidden;
     padding: 0.1em; }
+  body .disabled {
+    color: #BDC3C7; }
 
 ul {
   letter-spacing: 2px;

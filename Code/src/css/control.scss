@@ -27,6 +27,10 @@ body {
 		overflow: hidden;
 		padding: 0.1em;
 	}
+
+	.disabled {
+		color: $silversand;
+	}
 }
 
 ul {
