@@ -1,22 +1,33 @@
 body {
-  font: 100% Roboto, sans-serif;
+  color: #3D3D3D;
+  font: 2em "Open Sans", sans-serif;
   text-align: center;
   overflow-y: hidden; }
-
-h1 {
-  font-size: 100%; }
+  body .control-panel {
+    padding-top: 0.6em; }
+  body .important {
+    font-weight: bold;
+    padding: 0.1em 0.4em; }
+  body .important-value {
+    overflow: hidden;
+    padding: 0.1em; }
 
 ul {
-  list-style: none; }
+  letter-spacing: 2px;
+  list-style: none;
+  font: Roboto, sans-serif; }
   ul li {
     border-bottom: 1px solid #BDC3C7;
     color: #BDC3C7;
-    font-size: 220%;
-    padding: 0.2em 1em; }
+    font-size: 1.2em;
+    padding: 0.4em; }
   ul .control-setting {
     width: 30%; }
   ul .activated {
-    border-bottom: 2px solid #1E8BC3;
-    color: #1E8BC3; }
+    border-bottom: 2px solid #03A678;
+    color: #03A678; }
+  ul .deactivated {
+    border-bottom: 1px solid #D64541;
+    color: #D64541; }
 
 /*# sourceMappingURL=control.css.map */

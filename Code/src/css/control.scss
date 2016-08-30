@@ -1,33 +1,54 @@
-$font-stack: Roboto, sans-serif;
-$husky: #3A3A3A;
-$summersky: #1E8BC3;
+$opensans: 'Open Sans', sans-serif;
+$roboto: Roboto, sans-serif;
+$husky: #3D3D3D;
+$summersky: #03A678;
 $silversand: #BDC3C7;
+$valencia: #D64541;
 
-body {
-	font: 100% $font-stack;
-	text-align: center;
-
-	overflow-y: hidden;
+@mixin border-bottom($thickness, $color) {
+	border-bottom: $thickness solid $color;
 }
 
-h1 {
-	font-size: 100%;
+body {
+	color: $husky;
+	font: 2em $opensans;
+	text-align: center;
+	overflow-y: hidden;
+
+	.control-panel {
+		padding-top: 0.6em;
+	}
+
+	.important {
+		font-weight: bold;
+		padding: 0.1em 0.4em;
+	}
+	.important-value {
+		overflow: hidden;
+		padding: 0.1em;
+	}
 }
 
 ul {
+	letter-spacing: 2px;
 	list-style: none;
+	font:  $roboto;
 
 	li {
-		border-bottom: 1px solid $silversand;
+		@include border-bottom(1px, $silversand);
 		color: $silversand;
-		font-size: 220%;
-		padding: 0.2em 1em;
+		font-size: 1.2em;
+		padding: 0.4em;
 	}
 	.control-setting {
 		width: 30%;
 	}
 	.activated {
-		border-bottom: 2px solid $summersky;
+		@include border-bottom(2px, $summersky);
 		color: $summersky;
+	}
+	.deactivated {
+		@include border-bottom(1px, $valencia);
+		color: $valencia;
 	}
 }
