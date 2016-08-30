@@ -4,16 +4,19 @@ body {
   overflow-y: hidden; }
 
 h1 {
-  color: #3A3A3A;
   font-size: 100%; }
 
 ul {
   list-style: none; }
   ul li {
+    border-bottom: 1px solid #BDC3C7;
     color: #BDC3C7;
-    font-size: 200%;
-    padding: 1em; }
+    font-size: 220%;
+    padding: 0.2em 1em; }
+  ul .control-setting {
+    width: 30%; }
   ul .activated {
+    border-bottom: 2px solid #1E8BC3;
     color: #1E8BC3; }
 
 /*# sourceMappingURL=control.css.map */

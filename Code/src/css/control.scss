@@ -11,7 +11,6 @@ body {
 }
 
 h1 {
-	color: $husky;
 	font-size: 100%;
 }
 
@@ -19,11 +18,16 @@ ul {
 	list-style: none;
 
 	li {
+		border-bottom: 1px solid $silversand;
 		color: $silversand;
-		font-size: 200%;
-		padding: 1em;
+		font-size: 220%;
+		padding: 0.2em 1em;
+	}
+	.control-setting {
+		width: 30%;
 	}
 	.activated {
+		border-bottom: 2px solid $summersky;
 		color: $summersky;
 	}
 }
