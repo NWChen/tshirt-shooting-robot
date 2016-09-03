@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <svg viewBox="-15.42468 -0.5  15.42468 1" xmlns="http://www.w3.org/2000/svg" version="1.0" overflow="visible">
+  <defs>
+   <g id="ID__#42_Model_Space"/>
+   <g id="ID__#42_Paper_Space0"/>
+   <g id="ID__#42_Paper_Space"/>
+  </defs>
+  <g id="draft" transform="matrix(1 0 0 -1 0 0)" stroke-width="0.0020530850000000005">
+   <g id="ID_0" color="rgb(0,0,0)" stroke="currentColor" fill="none" stroke-width="0.0020530850000000005">
+    <text writing-mode="lr-tb" text-anchor="start" x="-15.42468" y="-0.5401404091" font-size="0.1903" transform="matrix(1 0 0 -1 0 -1.0802808182)" fill="currentColor" color="rgb(0,0,0)" stroke="currentColor" id="ID_80">
+     <tspan baseline-shift="-100%" font-size="0.1903">SOLIDWORKS Student Edition.</tspan>
+    </text>
+    <text writing-mode="lr-tb" text-anchor="start" x="-15.42468" y="-0.8255904091" font-size="0.1903" transform="matrix(1 0 0 -1 0 -1.6511808182)" fill="currentColor" color="rgb(0,0,0)" stroke="currentColor" id="ID_81">
+     <tspan baseline-shift="-100%" font-size="0.1903">For Academic Use Only.</tspan>
+    </text>
+    <circle cx="-0.7886751346" cy="0" r="0.0937500000000002" color="rgb(0,0,0)" stroke="currentColor" id="ID_73" stroke-width="0.15mm"/>
+    <circle cx="-1.2886751346" cy="0" r="0.0937500000000004" color="rgb(0,0,0)" stroke="currentColor" id="ID_74" stroke-width="0.15mm"/>
+    <circle cx="-1.7886751346" cy="0" r="0.0937500000000004" color="rgb(0,0,0)" stroke="currentColor" id="ID_75" stroke-width="0.15mm"/>
+    <circle cx="-2.2886751346" cy="0" r="0.0937500000000022" color="rgb(0,0,0)" stroke="currentColor" id="ID_76" stroke-width="0.15mm"/>
+    <circle cx="-13.1360048654" cy="0" r="0.0937500000000018" color="rgb(0,0,0)" stroke="currentColor" id="ID_77" stroke-width="0.15mm"/>
+    <circle cx="-13.6360048654" cy="0" r="0.09375" color="rgb(0,0,0)" stroke="currentColor" id="ID_78" stroke-width="0.15mm"/>
+    <circle cx="-14.1360048654" cy="0" r="0.09375" color="rgb(0,0,0)" stroke="currentColor" id="ID_79" stroke-width="0.15mm"/>
+    <circle cx="-14.6360048654" cy="0" r="0.09375" color="rgb(0,0,0)" stroke="currentColor" id="ID_7A" stroke-width="0.15mm"/>
+    <line x1="-15.42468" y1="0.5" x2="0" y2="0.5" color="rgb(0,0,0)" stroke="currentColor" id="ID_7B" stroke-width="0.15mm"/>
+    <line x1="-14.8473297308" y1="-0.5" x2="-15.42468" y2="0.5" color="rgb(0,0,0)" stroke="currentColor" id="ID_7C" stroke-width="0.15mm"/>
+    <line x1="-14.8473297308" y1="-0.5" x2="-0.5773502692" y2="-0.5" color="rgb(0,0,0)" stroke="currentColor" id="ID_7D" stroke-width="0.15mm"/>
+    <line x1="0" y1="0.5" x2="-0.5773502692" y2="-0.5" color="rgb(0,0,0)" stroke="currentColor" id="ID_7E" stroke-width="0.15mm"/>
+   </g>
+  </g>
+ </svg>
