@@ -13,6 +13,30 @@ body {
     padding: 0.1em; }
   body .disabled {
     color: #BDC3C7; }
+  body #cam-view {
+    height: 19em;
+    line-height: 19em;
+    text-align: center; }
+  body .btn, body .btn:hover, body .btn:focus {
+    background-color: #FFFFFF;
+    border: 1px solid #BDC3C7;
+    color: #BDC3C7;
+    font-size: 1.3em;
+    text-align: center;
+    outline: 0 !important;
+    height: 5em;
+    width: 5em; }
+    body .btn:active, body .btn:hover:active, body .btn:focus:active {
+      background-color: #03A678;
+      border: 1px solid #03A678;
+      box-shadow: none;
+      color: #FFFFFF;
+      outline: 0 !important; }
+  body #btn-fire {
+    height: 11.1em; }
+  body #btn-halt:active {
+    background-color: #D64541;
+    border: 1px solid #D64541; }
 
 ul {
   letter-spacing: 2px;

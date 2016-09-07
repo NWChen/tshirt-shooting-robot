@@ -4,6 +4,8 @@ $husky: #3D3D3D;
 $summersky: #03A678;
 $silversand: #BDC3C7;
 $valencia: #D64541;
+$white: #FFFFFF;
+$black: #2A2A2A;
 
 @mixin border-bottom($thickness, $color) {
 	border-bottom: $thickness solid $color;
@@ -31,6 +33,39 @@ body {
 	.disabled {
 		color: $silversand;
 	}
+
+	#cam-view {
+		height: 19em;
+		line-height: 19em;
+		text-align: center;
+	}
+
+	.btn, .btn:hover, .btn:focus {
+		background-color: $white;
+		border: 1px solid $silversand;
+		color: $silversand;
+		font-size: 1.3em;
+		text-align: center;
+		outline: 0 !important;
+		height: 5em;
+		width: 5em;
+		&:active {
+			background-color: $summersky;
+			border: 1px solid $summersky;
+			box-shadow: none;
+			color: $white;
+			outline: 0 !important;
+		}
+	}
+
+	#btn-fire {
+		height: 11.1em;
+	}
+
+	#btn-halt:active {
+		background-color: $valencia;
+		border: 1px solid $valencia;
+	}
 }
 
 ul {
@@ -56,3 +91,4 @@ ul {
 		color: $valencia;
 	}
 }
+

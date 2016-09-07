@@ -1,0 +1,13 @@
+<h3><q>Why do you have nuts and bolts all over your desk?</q></h3>
+Built in a college dorm room off a $1000 Columbia Engineering grant, the T-Shirt Shooting Robot is a 100-pound robot that shoots t-shirts into crowds using two counter-rotating flywheels. Its six-chambered electric shooter sits atop <a href="https://www.chiefdelphi.com/media/photos/42824">three omnidirectional drive modules</a>, which allow it to drive around while controlled remotely via mobile phone.
+<h3>Features</h3>
+As makers, we (Jan and Neil) are interested in working on projects that inspire people to build bigger and better. To that end, we have packed the T-Shirt Shooting Robot with plenty of features, including:
+<ul>
+<li><a href='https://www.chiefdelphi.com/media/photos/43907">Automatically revolving shooter</a>, to fire up to six shirts at a time</li>
+<li><a href="http://opencv.org/">OpenCV-powered</a> computer vision to recognize and move towards human faces</li>
+<li>Custom mobile interface and Flask webserver, to communicate remotely with a human operator (who could be you, this year at Maker Faire New York!)</li>
+<li>Adjustable shooter angle via <a href="https://www.chiefdelphi.com/media/photos/43906">a custom linear actuator</a></li>
+<li>Lasercut and 3D-printed construction, thanks to the Columbia MakerSpace.</li></ul>
+<h3>Thanks</h3>
+We are grateful for the resources and support lent to us by Joel Heitman, Bob Stark, the <a href="\&quot;\\&quot;\\\\&quot;http://www.columbiaesc.com/\\\\&quot;\\&quot;\&quot;">Columbia Engineering Student Council</a>, and the <a href="\&quot;\\&quot;\\\\&quot;http://make.columbia.edu/\\\\&quot;\\&quot;\&quot;">Columbia MakerSpace</a>.
+<b>We look forward to demonstrating our work at Maker Faire, and to seeing you at our booth!</b>

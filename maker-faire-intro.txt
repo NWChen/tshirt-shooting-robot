@@ -1,0 +1,15 @@
+Built in a college dorm room, the T-Shirt Shooting Robot is a 100-pound robot that shoots t-shirts into crowds using two counter-rotating flywheels. Its six-chambered electric shooter sits atop three omnidirectional drive modules, which allow it to drive around while controlled remotely via mobile phone.
+
+As makers, we (Jan and Neil) are interested in working on projects that inspire people to build bigger and better. To that end, we have ve packed the T-Shirt Shooting Robot with plenty of features, including:
+
+/// Automatically revolving shooter, to fire up to six shirts at a time
+/// Computer vision to recognize and move towards human faces
+/// Custom mobile interface and Flask webserver, to communicate remotely with a human operator (who could be you, this year at Maker Faire New York!)
+/// Adjustable shooter angle via a custom linear actuator
+/// Lasercut and 3D-printed construction, thanks to the Columbia MakerSpace.
+
+We look forward to demonstrating our work at Maker Faire, and to seeing you at our booth!
+
+---
+
+I study Electrical Engineering at the Grove School of Engineering (CCNY). Biomedical technology is an intense interest of mine; as a result, we tried to imbue animal-inspired motion in the T-Shirt Shooting Robot by building an omnidirectional drive platform. This means the robot is able to translate and rotate in all directions, just like a person can. I look forward to meeting you at Maker Faire New York this October!

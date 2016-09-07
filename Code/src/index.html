@@ -12,22 +12,7 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/control.css" rel="stylesheet" type="text/css">
 		<script src="js/jquery-3.1.0.min.js"></script>
-<script>
-  $( function() {
-    $("#slider-vertical").slider({
-      orientation: "vertical",
-      range: "min",
-      min: 0,
-      max: 100,
-      value: 60,
-      slide: function( event, ui ) {
-        $( "#amount" ).val( ui.value );
-      }
-    });
-    $( "#amount" ).val( $( "#slider-vertical" ).slider( "value" ) );
-  } );
-  </script>
-
+		<script src="js/script.js"></script>
 	</head>
 
 	<body>
@@ -36,9 +21,9 @@
 				<nav>
 					<ul class="nav nav-justified">
 						<li>SergeUI</li>
-						<li class="control-setting">MANUAL CONTROL</li>
-						<li class="control-setting">ASSISTED CONTROL</li>
-						<li class="deactivated">OFFLINE</li>
+						<li class="control-setting" id="control-manual">MANUAL CONTROL</li>
+						<li class="control-setting" id="control-assisted">ASSISTED CONTROL</li>
+						<li class="deactivated" id="connection-status">OFFLINE</li>
 					</ul>
 				</nav>
 			</div>
@@ -50,15 +35,19 @@
 
 					<!-- Spin up shooter -->
 					<div class="row">
-						<div class="well col-xs-12">
-							<br/><br/><br/><br/><br/>
+						<div class="col-xs-12">
+							<br/>
+							<button type="button" class="btn" id="btn-spinup">SPIN<br/>UP</button>
+							<br/><br/>
 						</div>
 					</div>
 					
 					<!-- Raise/lower shooter -->
 					<div class="row">
-						<div class="well col-xs-12">
-							<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+						<div class="col-xs-12">
+							<button type="button" class="btn" id="btn-raise">RAISE</button>
+							<br/><br/>
+							<button type="button" class="btn" id="btn-lower">LOWER</button>
 						</div>
 					</div>
 				</div>
@@ -93,9 +82,8 @@
 
 					<!-- Webcam stream -->
 					<div class="row">
-						<div class="well col-xs-12">
-							<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-							<br/><br/>
+						<div class="well col-xs-12" id="cam-view">
+							Webcam unavailable
 						</div>
 					</div>
 
@@ -117,8 +105,11 @@
 				</div>
 
 				<!-- Right panel -->
-				<div class="well col-xs-2">
-					<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+				<div class="col-xs-2">
+					<br/>
+					<button type="button" class="btn" id="btn-fire">FIRE</button>
+					<br/><br/>
+					<button type="button" class="btn" id="btn-halt">HALT</button>
 				</div>
 			</div>
 		</div>
