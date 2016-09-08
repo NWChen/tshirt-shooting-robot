@@ -1,5 +1,9 @@
+I am a Computer Science student at Columbia University, and a volunteer superuser at the Columbia University MakerSpace. After months of design iterations and code revisions, we look forward to entertaining and teaching Maker Faire attendees about robotics, technology, engineering, and the opportunities available to anyone interested in making things. You can view some of my work at <a href="https://github.com/NWChen" rel="nofollow">https://github.com/NWChen</a> and <a href="https://www.linkedin.com/in/neilwchen" rel="nofollow">https://www.linkedin.com/in/neilwchen</a>.
+<br><br>
 <h3><q>Why do you have nuts and bolts all over your desk?</q></h3>
-Built in a college dorm room off a $1000 Columbia Engineering grant, the T-Shirt Shooting Robot is a 100-pound robot that shoots t-shirts into crowds using two counter-rotating flywheels. Its six-chambered electric shooter sits atop <a href="https://www.chiefdelphi.com/media/photos/42824">three omnidirectional drive modules</a>, which allow it to drive around while controlled remotely via mobile phone.
+
+Built in a college dorm room off a $1000 Columbia Engineering grant, the T-Shirt Shooting Robot is a 100-pound robot that shoots t-shirts into crowds using two counter-rotating flywheels. Its six-chambered electric shooter sits atop three omnidirectional drive modules, which allow it to drive around while controlled remotely via mobile phone.
+<br><br>
 <h3>Features</h3>
 As makers, we (Jan and Neil) are interested in working on projects that inspire people to build bigger and better. To that end, we have packed the T-Shirt Shooting Robot with plenty of features, including:
 <ul>
