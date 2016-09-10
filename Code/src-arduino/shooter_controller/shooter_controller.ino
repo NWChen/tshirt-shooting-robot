@@ -178,6 +178,11 @@ void setup() {
 }
 
 void loop() {
+  cylinder.printDebug();
+  rack.printDebug();
+  leftWheel.printDebug();
+  rightWheel.printDebug();
+  Serial.println(fsm_state);
   switch(fsm_state) {
     case IDLE:
       cylinder.release();

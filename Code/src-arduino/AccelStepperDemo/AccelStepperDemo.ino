@@ -39,10 +39,10 @@ void setup()
     stepper1.setMaxSpeed(300.0);
 
   // Set acceleration/deceleration in steps per second per second
-    stepper1.setAcceleration(30.0);
+    stepper1.setAcceleration(300.0);
 
   // Begin motion
-    stepper1.moveTo(4000);
+    stepper1.moveTo(86);
 
   // Change from divide-by-64 prescale on Timer 2 to divide by 8 to get
   // 8-times faster PWM frequency (976 Hz --> 7.8 kHz). This should prevent
@@ -55,7 +55,7 @@ void loop()
   // Once the motor has reached its target position, decelerate and move to the
   // same position in the other direction.
     if (stepper1.distanceToGo() == 0) {
-      stepper1.moveTo(-stepper1.currentPosition());
+      stepper1.moveTo(stepper1.currentPosition() + 171);
     }
     stepper1.run();
 }
