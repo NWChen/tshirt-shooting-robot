@@ -83,6 +83,11 @@ class Rack: public Output {
     servo.write(145);
   }
   
+  // Stop the rack
+  void stop() {
+    servo.write(90);
+  }
+  
   // Detect whether the rack is retracted
   boolean isRetracted() {
     return readPot() < 1;
@@ -90,12 +95,13 @@ class Rack: public Output {
 
   // Detect whether the rack is extended
   boolean isExtended() {
-    return readPot() > 99;
+    return readPot() > 880;
   }
   
   // Read the position of the rack
   int readPot() {
-    return map(analogRead(pot_port), 23, 1000, 0, 100);
+    return analogRead(pot_port);
+    //return map(analogRead(pot_port), 0, 880, 0, 100);
   }
   
   void printDebug() {
@@ -193,12 +199,19 @@ void loop() {
       fsm_state = RACK_EXTENDING;
       break;
     case RACK_EXTENDING:
-      if(rack.isExtended())
+      rack.extend();
+      if(rack.isExtended()) {
+        rack.stop();
         fsm_state = RACK_RETRACTING;
+      }
       break;
     case RACK_RETRACTING:
-      if(rack.isRetracted())
+      rack.retract();
+      if(rack.isRetracted()) {
+        delay(50);
+        rack.stop();
         fsm_state = CYLINDER_ROTATING;
+      }
       break;
     case CYLINDER_ROTATING:
       cylinder.index(1);
