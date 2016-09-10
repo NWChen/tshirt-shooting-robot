@@ -1,5 +1,5 @@
-# SERGE
-SERGE stands for Shirt-Ejecting Robot for General Entertainment. It's a 100lb. mobile robot designed to excite crowds and inspire interest in STEM.
+# T-Shirt Shooting Robot
+This is a 100lb. mobile robot designed to excite crowds and inspire interest in STEM.
 
 # Thanks
 Thanks to Columbia Engineering Student Council for helping fund this project.
