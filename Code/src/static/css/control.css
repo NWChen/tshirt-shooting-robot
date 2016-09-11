@@ -32,6 +32,8 @@ body {
       box-shadow: none;
       color: #FFFFFF;
       outline: 0 !important; }
+  body .btn:hover {
+    background-color: inherit; }
   body #btn-fire {
     height: 11.1em; }
   body #btn-halt:active {

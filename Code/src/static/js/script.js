@@ -3,6 +3,10 @@ $(document).ready(function() {
 	// SPIN UP button pressed
 	$("#btn-spinup").click(function() {
 		console.log("SPIN UP");
+		var start = Date.now();
+		$.get("/spinup", function(data) {
+			console.log(parseInt(data) - start);
+		});
 	});
 
 	// RAISE button pressed
